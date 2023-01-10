@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+html{
+    height: 100%;
+}
+/* Se establecen los tres espacios de igual proporción que va a tener la pantalla */
+#caja-grande {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    place-items: center;
+    height: 99vh;
+}
+
+#caja-grande>div {
+    height: 95vh;
+    width: 30vw;
+    background: rgb(245, 241, 233);
+}
+
+h1 {
+    font-variant: small-caps;
+    font-size: 3em;
+    color: rgb(89, 74, 58);
+    text-align: center;
+    font-family: 'EB Garamond', serif;
+    border-top: solid 1px rgba(89, 74, 58, 0.693);
+    margin: 8% 5%;
+    letter-spacing: 0.20em;
+}
+
+.texto-general {
+    font-family: 'Crimson Text', serif;
+    font-size: 1.2em;
+    color: rgb(89, 74, 58);
+    margin: 8% 5%;
+    padding: 5%;
+    border-top: solid 4px rgba(89, 74, 58, 0.693);
+    text-align: justify;
+}
+
+/* Se establecen las características básicas de la tabla del 3 en raya */
+#tabla-3-raya {
+    width: 80%;
+    height: 35%;
+    border-collapse: collapse;
+    /* el doble borde por defecto de la tabla se fusiona en uno */
+    margin-left: auto;
+    /* estos dos líneas sirven para centrar la tabla */
+    margin-right: auto;
+    margin-bottom: 6%;
+}
+/* se añaden los bordes de la tabla */
+#tabla-3-raya td {
+    padding: 0.5rem;
+    border: 5px solid rgba(89, 74, 58, 0.693);
+}
+
+/* Se eliminan los bordes exteriores */
+#tabla-3-raya tr td:first-child {
+    border-left: none;
+}
+
+#tabla-3-raya tr:first-child td {
+    border-top: none;
+}
+
+#tabla-3-raya tr td:last-child {
+    border-right: none;
+}
+
+#tabla-3-raya tr:last-child td {
+    border-bottom: none;
+}
+
+/* Tabla fichas */
+#tabla-fichas {
+    width: 60%;
+    height: 20vh;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    color: rgb(89, 74, 58);
+    
+}
+#tabla-fichas th{
+    font-family: 'EB Garamond', serif;
+    
+}
+
+#tabla-fichas tr:first-child{
+    font-size: 1.3em;
+    
+}
+
+#tabla-fichas tr:nth-child(3), tr:nth-child(5){
+    background-color: rgb(218, 212, 203);
+}
+
+#empresa{
+    font-family: 'Lato', sans-serif;
+    color: rgb(89, 74, 58);
+    margin: 8% 5%;
+    padding: 5%;
+    text-align: center;
+    font-size: 0.80em;
+}
+
+span{
+    text-transform: uppercase;
+    letter-spacing: 0.30em;
+    font-size: 1.4em;
+}
+
+#texto-historia{
+    font-size: 1.6em;
+    font-family: 'EB Garamond', serif;
+    text-align: center;
+    
+}
