@@ -1,9 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Crimson+Text&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
-html{
+
+html {
     height: 100%;
 }
+body{
+    background: rgb(210, 227, 230) url(img/fondo2.webp) no-repeat fixed;
+    background-size: 100vw 100vh;
+    
+}
+
 /* Se establecen los tres espacios de igual proporción que va a tener la pantalla */
 #caja-grande {
     display: grid;
@@ -50,6 +57,7 @@ h1 {
     margin-right: auto;
     margin-bottom: 6%;
 }
+
 /* se añaden los bordes de la tabla */
 #tabla-3-raya td {
     padding: 0.5rem;
@@ -82,23 +90,25 @@ h1 {
     text-align: center;
     font-family: 'Lato', sans-serif;
     color: rgb(89, 74, 58);
-    
+
 }
-#tabla-fichas th{
+
+#tabla-fichas th {
     font-family: 'EB Garamond', serif;
-    
+
 }
 
-#tabla-fichas tr:first-child{
+#tabla-fichas tr:first-child {
     font-size: 1.3em;
-    
+
 }
 
-#tabla-fichas tr:nth-child(3), tr:nth-child(5){
+#tabla-fichas tr:nth-child(3),
+tr:nth-child(5) {
     background-color: rgb(218, 212, 203);
 }
 
-#empresa{
+#empresa {
     font-family: 'Lato', sans-serif;
     color: rgb(89, 74, 58);
     margin: 8% 5%;
@@ -107,15 +117,29 @@ h1 {
     font-size: 0.80em;
 }
 
-span{
+span {
     text-transform: uppercase;
     letter-spacing: 0.30em;
     font-size: 1.4em;
 }
 
-#texto-historia{
-    font-size: 1.6em;
+#texto-historia {
+    font-size: 1.5rem;
     font-family: 'EB Garamond', serif;
     text-align: center;
-    
+
+}
+
+.img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#img-historia{
+    width: 40%;
+}
+
+#img-instru{
+    width: 80%;
 }
