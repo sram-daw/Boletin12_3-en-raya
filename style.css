@@ -144,10 +144,8 @@ span {
     width: 80%;
 }
 
-.circulo{
-    width: 20%;
-}
-
-.equis{
-    width: 20%;
+svg{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;  
 }
